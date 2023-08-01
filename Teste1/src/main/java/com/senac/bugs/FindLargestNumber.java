@@ -1,11 +1,12 @@
 package com.senac.bugs;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class FindLargestNumber {
 
     public static void main(String[] args) {
-        List<Integer> numbers = Arrays.asList(1, 2, 3, -4, 5);
+        List<Integer> numbers = Arrays.asList(1, 22, 3, -4, 5, 8);
         int largestNumber = numbers.get(0);
         for (int number : numbers) {
             if (number > largestNumber) {

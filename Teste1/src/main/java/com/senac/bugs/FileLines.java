@@ -2,6 +2,7 @@ package com.senac.bugs;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 
 public class FileLines {
 
@@ -15,3 +16,5 @@ public class FileLines {
     }
 
 }
+
+
