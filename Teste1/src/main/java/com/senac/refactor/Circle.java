@@ -1,7 +1,6 @@
 package com.senac.refactor;
 
 import java.util.Scanner;
-
 public class Circle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,12 +10,12 @@ public class Circle {
         2. Calcular perimetro
         3. Calcular volume esfera
         4. calcular area superficie esfera""");
-//
 
         int operacoes = sc.nextInt();
         sc.nextLine();
 
         if (operacoes == 1){
+            Circle
         }
     }
     public double calculaAreaDoCirculo(double raio) {
